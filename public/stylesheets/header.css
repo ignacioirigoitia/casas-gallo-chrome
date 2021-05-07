@@ -1,0 +1,55 @@
+.header{
+    margin-top: 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.header .caja{
+    width: 100%;
+    display: flex;
+}
+
+.header .titulo{
+    flex-grow: 1;
+}
+
+
+
+.header .titulo a{
+    color: white;
+    font-size:4.5rem;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.header .titulo a:hover{
+    color: white;
+}
+
+.header .titulo .verde{
+    color: #5AFF3D;
+}
+
+
+.header .icono{
+    font-size: 60px;
+    color: white;
+    border: white;
+    padding-right: 40px;
+    padding-top: 25px;
+}
+
+
+.header .nav-item a{
+    color: white !important;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.header .nav-item a:hover{
+    color: #5AFF3D !important;
+}

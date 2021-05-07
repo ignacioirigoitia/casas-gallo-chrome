@@ -1,0 +1,60 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* === VARIABLES CSS === */
+:root{
+    --header-height: 3rem;
+    --font-semi: 600;
+}
+  
+  /* === Fuente y tipografía === */
+:root{
+    --body-font: "Nunito";
+    --big-font-size: 2rem;
+    --h2-font-size: 1.25rem;
+    --normal-font-size: 0.938rem;
+}
+
+/* === Margenes === */
+:root{
+    --mb-1: 0.5rem;
+    --mb-2: 1rem;
+    --mb-3: 1.5rem;
+    --mb-4: 2rem;
+    --mb-5: 2.5rem;
+    --mb-6: 3rem;
+}
+
+body{
+    min-height: 100vh;
+    background-image: url("../images/bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: var(--body-font);
+}
+
+html{
+    scroll-behavior: smooth; /* el scroll-behavior smooth nos desplaza hacia el ancla de una forma fluida, el auto lo hace automaticamente y es el valor por defecto; */
+}
+
+h1,h2,p{
+    margin: 0;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+  }
+  img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
