@@ -3,8 +3,8 @@
     width: 100px;
     height: 100px;
     line-height: 55px;
-    bottom: 30px;
-    right: 30px;
+    bottom: 43px;
+    right: 42px;
     background: #00bb2d;
     border-radius: 50px;
     text-align: center;
@@ -16,8 +16,8 @@
 .btn-wspaicon{
     position: fixed;
     font-size: 70px;
-    bottom: 47px;
-    right: 47px;
+    bottom: 60px;
+    right: 60px;
 }
 
 .btn-wspa:hover{

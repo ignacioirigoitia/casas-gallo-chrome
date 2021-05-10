@@ -62,13 +62,13 @@
 
 .home .hogares .hogar h5{
     color: white;
-    font-size: 4rem;
+    font-size: 4.5rem;
     font-weight: bold;
 }
 
 .home .hogares .hogar p{
     color: white;
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 30px;
 }
 
@@ -107,3 +107,9 @@
 .home .button-up i:hover{
     color: #5AFF3D;
 }
+
+/* @media (min-width: 768px){
+    .home .presentacion .titulo-home h1{
+        font-size: 4rem;
+    }
+} */

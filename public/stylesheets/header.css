@@ -8,6 +8,10 @@
     background-color: rgba(0, 0, 0, 0.8);
 }
 
+.header .tablet{
+    display: none;
+}
+
 .header .caja{
     width: 100%;
     display: flex;
@@ -52,4 +56,8 @@
 
 .header .nav-item a:hover{
     color: #5AFF3D !important;
+}
+
+@media(min-width:767px){
+    
 }
